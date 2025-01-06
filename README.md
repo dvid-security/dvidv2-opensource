@@ -2,7 +2,7 @@
 
 Welcome to the DVID V2 opensource space.
 
-![DVID v2 beta](./img/dvidv2_beta.jpg)
+![DVID v2 beta](./dvidv2_beta.jpg)
 
 The DVID board is currently in beta mode. You can request an access to beta program on contact@dvid.eu.
 
