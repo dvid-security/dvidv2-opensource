@@ -1,18 +1,18 @@
 # Escape Game
 
-🚨 This EscapeGame is based on DVID version 1. The migration to DVIDv2 is incoming.
+🚨 This EscapeGame is based on DVID version 1. The migration to DVIDv2 is still ongoing.
 
 ## Introduction
 ### Setup
-To play the game, you need to prepare :
+To play the game, you need to have :
 
   * Your DVID board (in version 1)
-  * Flashing setup (ex.: avrdude)
+  * Your flashing setup (ex.: avrdude)
   * Internet access
   * Bluetooth control tool (bleah, gatttool or nRFConnect on Android)
-  * Take fun
+  * Have fun!
 
-Also, you need to download and flash some elements :
+Also, you need to download and flash elements :
   * Download the tms firmware : [Download](tms.hex)
   * Download documentation here : [Download](tms_datasheet.pdf)
   * Download decrypt python2 script : [Download](decrypt.py)
@@ -26,12 +26,12 @@ Also, you need to download and flash some elements :
 ### Scope
 The game perimeter is composed of :
 
-  * Physical play will be done on the DVID board
-  * Online play will be done only on tmsindustries.com root domain
+  * The physical part of the game is done on the DVID board
+  * The online part of the game is done only on tmsindustries.com root domain
 
 
 ### Support
-In case of questions : contact@dvid.eu or discord Vulcainreo#0358
+In case you have any question, please reach out to : contact@dvid.eu or discord Vulcainreo#0358
 
 
 **You are ready to play the game**
@@ -40,44 +40,44 @@ In case of questions : contact@dvid.eu or discord Vulcainreo#0358
 ### The context
 
 * The company TMS Industries is an industrial system manufacturer
-* The company has developped an system to monitor the temperature. The name is : tms
-* The sensor (your DVID) needs to be installed near your favoriture tms and connected to home wifi
+* The company has developed a system to monitor the temperature. The name is : tms
+* The sensor (your DVID) needs to be installed near your favorite tms and connected to your home wifi
 * Bluetooth connection is used for installation and remote control
-* The system is composed by
-    * Sensor (the DVID)
+* The system is composed of:
+    * A sensor (the DVID)
     * A phone (local monitor and remote control)
     * A cloud service for alerting
-*  The system works as
-    * The sensors sends temperature value to the phone over Bluetooth BLE
-    * The sensors sends temperature value to cloud over IoT protocols
-    * The sensor prints current temperature
+*  The system works as described here:
+    * The sensors sends temperature values to the phone over Bluetooth BLE
+    * The sensors sends temperature values to cloud over IoT protocols
+    * The sensor prints the current temperature
 
 ### The mission
-You are working to TMS industries and you CISO is asking you to investigate about a security failure on the best seller product : the tms.
+You are working for TMS industries and you CISO is asking you to investigate a security failure on the best seller product : the tms.
 
-Your subcontractor seems to have been hacked and a backdoor might be installed deeper.
-You have one hour to investigate and, if a backdoor is found, try to defuse it
+Your subcontractor seems to have been hacked and a backdoor might be installed deep in the product.
+You have one hour to investigate and, if a backdoor is found, try to defuse it.
 
-To acheive, you have acces to :
+To achieve this, you have access to :
 
-* All company ressource
+* All company resources
 * Phone application database
-* The fresh produced tms device
+* A fresh tms device
 
 
 ## Game follow-up
 ### Limitations
 * Online resources are located only on root domain ".tmsindustries.com"
-* Sub-domain could be available like xxx.tmsindustries.com
-* Attack outside this domain will give no flag and prison !
-* Bruteforce is allowed with reasonable throttle
+* Sub-domain could be available, like xxx.tmsindustries.com
+* Attack outside this domain will give no flag and may lead you to prison !
+* Bruteforce is allowed with a reasonable throttle
 * Denial of service is forbidden (and of course absolutely useless)
 
 ### Progression follow-up
-* During the game, you will find
+* During the game, you will find:
     * Flag : use to follow up you progression in the game
     * Hint : use to discover the enigma solution
-    * Password : use to resolv the enigma
+    * Password : use to resolve enigma
 * Finding a flag means that the step is finished
 * The flag format is : FLAG-xxxxx
 * Some data may be encrypted but keep in mind that a key should help you
@@ -87,7 +87,7 @@ To acheive, you have acces to :
 * The company name is : TMS Industries
 * The company website : tmsindustries.com
 * Talk together if you have difficulties
-* Ask to the game master if you think you are in the wrong way
+* Ask the game master if you think you are in the wrong way
 * Dig into your courses materials
 * Please, respect game limitations
 * A hint, a tool or a password can be used only once
