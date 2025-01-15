@@ -13,21 +13,21 @@ To play the game, you need to have :
   * Have fun!
 
 Also, you need to download and flash elements :
-  * Download the tms firmware : [Download](tms.hex)
-  * Download documentation here : [Download](tms_datasheet.pdf)
+  * Download the bbq firmware : [Download](bbq.hex)
+  * Download documentation here : [Download](bbq_datasheet.pdf)
   * Download decrypt python2 script : [Download](decrypt.py)
   * Download encrypted database here : [Download](database.db.enc)
-  * Flash the tms.hex on DVID
+  * Flash the bbq.hex on DVID
 
   ```bash
-  avrdude -pm328p -cusbasp -u -U flash:w:tms.hex -F
+  avrdude -pm328p -cusbasp -u -U flash:w:bbq.hex -F
   ```
 
 ### Scope
 The game perimeter is composed of :
 
   * The physical part of the game is done on the DVID board
-  * The online part of the game is done only on tmsindustries.com root domain
+  * The online part of the game is done only on bbqindustries.com root domain
 
 
 ### Support
@@ -39,9 +39,9 @@ In case you have any question, please reach out to : contact@dvid.eu or discord 
 ## Game storytelling
 ### The context
 
-* The company TMS Industries is an industrial system manufacturer
-* The company has developed a system to monitor the temperature. The name is : tms
-* The sensor (your DVID) needs to be installed near your favorite tms and connected to your home wifi
+* The company Copernic Industries is an industrial system manufacturer
+* The company has developed a Barbecue system to monitor the temperature of meat during cooking. The name is : BBQ
+* The sensor (your DVID) needs to be installed near your favorite BBQ and connected to your home wifi
 * Bluetooth connection is used for installation and remote control
 * The system is composed of:
     * A sensor (the DVID)
@@ -53,7 +53,7 @@ In case you have any question, please reach out to : contact@dvid.eu or discord 
     * The sensor prints the current temperature
 
 ### The mission
-You are working for TMS industries and you CISO is asking you to investigate a security failure on the best seller product : the tms.
+You are working for Copernic industries and you CISO is asking you to investigate a security failure on the best seller product : the BBQ.
 
 Your subcontractor seems to have been hacked and a backdoor might be installed deep in the product.
 You have one hour to investigate and, if a backdoor is found, try to defuse it.
@@ -62,13 +62,13 @@ To achieve this, you have access to :
 
 * All company resources
 * Phone application database
-* A fresh tms device
+* A fresh bbq device
 
 
 ## Game follow-up
 ### Limitations
-* Online resources are located only on root domain ".tmsindustries.com"
-* Sub-domain could be available, like xxx.tmsindustries.com
+* Online resources are located only on root domain ".copernicindustries.com"
+* Sub-domain could be available, like xxx.copernicindustries.com
 * Attack outside this domain will give no flag and may lead you to prison !
 * Bruteforce is allowed with a reasonable throttle
 * Denial of service is forbidden (and of course absolutely useless)
@@ -84,8 +84,8 @@ To achieve this, you have access to :
 
 
 ## Conclusion
-* The company name is : TMS Industries
-* The company website : tmsindustries.com
+* The company name is : Copernic Industries
+* The company website : copernicindustries.com
 * Talk together if you have difficulties
 * Ask the game master if you think you are in the wrong way
 * Dig into your courses materials
