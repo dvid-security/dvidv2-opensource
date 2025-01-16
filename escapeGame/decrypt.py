@@ -21,10 +21,10 @@ def decrypt_file(key, in_filename, out_filename=None, chunksize=24*1024):
 
 
 
-key = sys.argv[1];
+key = sys.argv[1].encode();
 filename = sys.argv[2];
 
-print("Key : "+key);
+print("Key : "+str(key));
 print("Filename : "+filename);
 
 decrypt_file(key, filename);
