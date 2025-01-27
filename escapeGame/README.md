@@ -1,6 +1,7 @@
 # Escape Game
 
 🚨 This EscapeGame is based on DVID version 1. The migration to DVIDv2 is still ongoing.
+
 Contact: https://discord.gg/rWsZStSp
 
 ## Introduction
