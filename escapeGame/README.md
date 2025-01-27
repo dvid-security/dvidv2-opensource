@@ -1,6 +1,7 @@
 # Escape Game
 
 🚨 This EscapeGame is based on DVID version 1. The migration to DVIDv2 is still ongoing.
+Contact: https://discord.gg/rWsZStSp
 
 ## Introduction
 ### Setup
@@ -70,7 +71,7 @@ To achieve this, you have access to :
 * Online resources are located only on root domain ".copernicindustries.com"
 * Sub-domain could be available, like xxx.copernicindustries.com
 * Attack outside this domain will give no flag and may lead you to prison !
-* Bruteforce is allowed with a reasonable throttle
+* Bruteforce is allowed with a reasonable throttle but in most of case useless
 * Denial of service is forbidden (and of course absolutely useless)
 
 ### Progression follow-up
