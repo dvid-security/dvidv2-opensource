@@ -2,7 +2,7 @@
 
 🚨 This EscapeGame is based on DVID version 1. The migration to DVIDv2 is still ongoing.
 
-Contact: https://discord.gg/rWsZStSp
+Contact: [https://discord.gg/rWsZStSp](https://discord.gg/C7nmmjyJ9T)
 
 ## Introduction
 ### Setup
@@ -30,10 +30,6 @@ The game perimeter is composed of :
 
   * The physical part of the game is done on the DVID board
   * The online part of the game is done only on copernicindustries.com root domain
-
-
-### Support
-In case you have any question, please reach out to : contact@dvid.eu or discord Vulcainreo#0358
 
 
 **You are ready to play the game**
