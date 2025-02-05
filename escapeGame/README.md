@@ -29,7 +29,7 @@ Also, you need to download and flash elements :
 The game perimeter is composed of :
 
   * The physical part of the game is done on the DVID board
-  * The online part of the game is done only on bbqindustries.com root domain
+  * The online part of the game is done only on copernicindustries.com root domain
 
 
 ### Support
