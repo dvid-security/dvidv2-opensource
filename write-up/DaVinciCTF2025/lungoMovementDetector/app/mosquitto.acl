@@ -1,0 +1,11 @@
+user server
+topic readwrite logs/#
+topic readwrite devices/0a56eecf-2955-4756-8f5d-80adc2e55ac0/#
+
+user 636687ef-cf0b-4562-b1d6-35f5a8ddbcc8
+topic read logs/#
+topic read devices/0a56eecf-2955-4756-8f5d-80adc2e55ac0/flag
+topic write devices/0a56eecf-2955-4756-8f5d-80adc2e55ac0/disarm
+
+# All clients
+pattern readwrite devices/%u/#
