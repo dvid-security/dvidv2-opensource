@@ -1,14 +1,15 @@
-# DVID v2 - Opensource space
+# DVID - Opensource space
 
-Welcome to the DVID V2 opensource space.
+Welcome to the DVID opensource space.
 
 ![DVID v2 beta](./dvidv2_beta.jpg)
 
-The DVID board is currently in beta mode. You can request an access to beta program on contact@dvid.eu.
+More details about this repo : https://dvid.eu/opensource
+Also, you can request an access to experience on contact@dvid.eu (https://experience.dvid.eu)
 
 ## Contribution
 ### Introduction
-Because the DVID project is opensource, you are more than welcome to contribute. We happily accept new trainings, CTF challenges and proof-of-concepts.
+Because the DVID contributes to opensource, you are more than welcome to contribute. We happily accept CTF challenges, proof-of-concepts or just fun stuff.
 
 ### Instructions
 If you want to contribute, please follow these steps :
