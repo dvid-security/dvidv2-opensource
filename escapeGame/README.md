@@ -1,28 +1,28 @@
 # Escape Game
 
-🚨 This EscapeGame is based on DVID version 1. The migration to DVIDv2 is still ongoing.
+🚨 This EscapeGame is based now only compatible with DVID version 2. If you have a DVIDv1, please contact us !
 
-Contact: [https://discord.gg/rWsZStSp](https://discord.gg/C7nmmjyJ9T)
+Contact: [On Discord](https://discord.gg/8Rz5fKsw)
 
 ## Introduction
 ### Setup
 To play the game, you need to have :
 
-  * Your DVID board (in version 1)
-  * Your flashing setup (ex.: avrdude)
+  * Your DVID board (in version 2)
+  * Your flashing setup (ex.: https://dvid-security.github.io/wiki-experience/get-started/esp32-flash.html)
   * Internet access
   * Bluetooth control tool (bleah, gatttool or nRFConnect on Android)
   * Have fun!
 
 Also, you need to download and flash elements :
-  * Download the bbq firmware : [Download](bbq.hex)
+  * Download the bbq firmware : [Download](firmware.esp32)
   * Download documentation here : [Download](bbq_datasheet.pdf)
   * Download decrypt python2 script : [Download](decrypt.py)
   * Download encrypted database here : [Download](database.db.enc)
   * Flash the bbq.hex on DVID
 
   ```bash
-  avrdude -pm328p -cusbasp -u -U flash:w:bbq.hex -F
+  esptool.py --port /dev/ttyUSB0 --baud 115200 --chip esp32 write_flash 0x10000 firmware.esp32
   ```
 
 ### Scope
