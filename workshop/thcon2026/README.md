@@ -6,7 +6,7 @@ Pour ce challenge, vous devez flasher votre badge DVID avec le micrologiciel sui
 
 La commande suivante peut être utilisée :
 ```bash
-esptool.py --port /dev/ttyUSB0 --baud 115200 --chip esp32 write_flash 0x10000 firmware.bin
+esptool.py --port /dev/ttyUSB0 --baud 115200 --chip esp32 write_flash 0x0 firmware.bin
 ```
 
 Trace console (au cas où)
@@ -50,7 +50,7 @@ For this challenge, you must flash your DVID badge with the following firmware:
 
 The following command can be used:
 ```bash
-esptool.py --port /dev/ttyUSB0 --baud 115200 --chip esp32 write_flash 0x10000 firmware.bin
+esptool.py --port /dev/ttyUSB0 --baud 115200 --chip esp32 write_flash 0x0 firmware.bin
 ```
 
 Trace console (au cas où)
